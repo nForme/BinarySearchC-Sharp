@@ -54,7 +54,7 @@ namespace Cunt2
                 }
                 watch.Stop();
                 long elapsedMs = watch.ElapsedMilliseconds;
-                Console.WriteLine("Simple search took" + elapsedMs + "mSecs and" + searchIndex + "comparisons");
+                Console.WriteLine("Simple search took " + elapsedMs + " mSecs and " + searchIndex + " comparisons");
                 Console.WriteLine("");
                 Console.WriteLine("");
 
@@ -112,7 +112,7 @@ namespace Cunt2
                 watch.Stop();
                 elapsedMs = watch.ElapsedMilliseconds;
 
-                Console.WriteLine("Binary search took took " + elapsedMs + "mSecs and " + searchCounter + " comparisons. Found item at location " + mid);
+                Console.WriteLine("Binary search took took " + elapsedMs + " mSecs and " + searchCounter + " comparisons. Found item at location " + mid);
                 Console.WriteLine("");
                 Console.WriteLine("");
                 Console.WriteLine("Press any key to exit the programm ....");
